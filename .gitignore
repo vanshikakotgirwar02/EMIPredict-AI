@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Large datasets
+*.csv
+*.xlsx
+*.zip
+
+# Trained models
+*.pkl
+*.joblib
+*.h5
+*.keras
