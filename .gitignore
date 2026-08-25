@@ -31,3 +31,8 @@ Thumbs.db
 *.joblib
 *.h5
 *.keras
+
+# Allow required models for Streamlit deployment
+!models/emi_eligibility_model.pkl
+!models/max_emi_model.pkl
+!models/X_test.pkl
